@@ -4,7 +4,8 @@ import time
 from tqdm import tqdm
 from sklearn.metrics import f1_score
 from evaluators import Bcube_score, Blanc_score, Ceaf4_score
-api_key = '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'
+# enter your openai api key here
+api_key = ''
 openai.api_key=api_key
 
 prompt = 'Here is an example: {}. Following this example and read the following conversation: "{}" The NO.{} "{}" in the utterance "{}" refer to which character? you should choose answer from {}'

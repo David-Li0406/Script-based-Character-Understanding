@@ -3,7 +3,8 @@ import openai
 import time
 from tqdm import tqdm
 from sklearn.metrics import f1_score
-api_key = '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'
+# enter your openai api key here
+api_key = ''
 openai.api_key=api_key
 import random
 random.seed(42)
