@@ -4,18 +4,18 @@
 
 </div>
 
-### Overview
+## Overview
 
 <p align="center">
   <img src="./overview.png" width="750" title="Overview of our framework" alt="">
 </p>
 
 
-### Dependency
+## Dependency
 
 To run our multi-level contrastive learning framework in each individual task, please first install the require packages from the original repositories [here](https://github.com/HKUST-KnowComp/C2) and [here](https://github.com/YisiSang/TVSHOWGUESS).
 
-### Data
+## Data
 
 You can download the processed data [here](https://drive.google.com/drive/folders/1oKz3_suw9I0zeUbjR3tta3UCbaK9h9GD?usp=drive_link) directly.
 
@@ -23,9 +23,9 @@ For character linking and coreference resolution, put the files in original_data
 
 For character guessing, put the files in dataset into ``character guessing/dataset``.
 
-### Run
+## Run
 
-#### Character Linking & Coreference Resolution
+### Character Linking & Coreference Resolution
 
 To get C2 result in character linking and coreference resolution, run
 ```
@@ -34,10 +34,10 @@ bash train.sh
 ```
 
 
-#### Character Guessing
+### Character Guessing
 TBA
 
-### Results with LLMs
+## Results with LLMs
 
 We also include the code to inference each dataset with ChatGPT. You will first need to add you OpenAI API key into ``inference_api.py``.
 
