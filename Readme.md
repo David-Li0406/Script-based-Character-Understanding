@@ -19,13 +19,13 @@ To run our multi-level contrastive learning framework in each individual task, p
 
 You can download the processed data [here](https://drive.google.com/drive/folders/1oKz3_suw9I0zeUbjR3tta3UCbaK9h9GD?usp=drive_link) directly.
 
-For character linking and coreference resolution, put the files in original_data into [character linking & coreference_resolution/data](character linking & coreference_resolution/data), and put the files in data into [character linking & coreference_resolution/joint_model/data](character linking & coreference_resolution/joint_model/data).
+For character linking and coreference resolution, put the files in original_data into [`character linking & coreference_resolution/data`](character linking & coreference_resolution/data), and put the files in data into [character linking & coreference_resolution/joint_model/data](character linking & coreference_resolution/joint_model/data).
 
 For character guessing, put the files in dataset into [character guessing/dataset](character guessing/dataset).
 
 ### Run
 
-## Character Linking & Coreference Resolution
+#### Character Linking & Coreference Resolution
 
 To get C2 result in character linking and coreference resolution, run
 ```
@@ -34,7 +34,7 @@ bash train.sh
 ```
 
 
-## Character Guessing
+#### Character Guessing
 TBA
 
 ### Results with LLMs
