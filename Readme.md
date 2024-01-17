@@ -13,15 +13,15 @@
 
 ### Dependency
 
-To run our multi-level contrastive learning framework in each individual task, please first install the require packages from the original repositories (here)[https://github.com/HKUST-KnowComp/C2] and (here)[https://github.com/YisiSang/TVSHOWGUESS].
+To run our multi-level contrastive learning framework in each individual task, please first install the require packages from the original repositories [here](https://github.com/HKUST-KnowComp/C2) and [here](https://github.com/YisiSang/TVSHOWGUESS).
 
 ### Data
 
-You can download the processed data (here)[https://drive.google.com/drive/folders/1oKz3_suw9I0zeUbjR3tta3UCbaK9h9GD?usp=drive_link] directly.
+You can download the processed data [here](https://drive.google.com/drive/folders/1oKz3_suw9I0zeUbjR3tta3UCbaK9h9GD?usp=drive_link) directly.
 
-For character linking and coreference resolution, put the files in original_data into [`character linking & coreference_resolution/data`](character linking & coreference_resolution/data), and put the files in data into [`character linking & coreference_resolution/joint_model/data`](character linking & coreference_resolution/joint_model/data).
+For character linking and coreference resolution, put the files in original_data into [character linking & coreference_resolution/data](character linking & coreference_resolution/data), and put the files in data into [character linking & coreference_resolution/joint_model/data](character linking & coreference_resolution/joint_model/data).
 
-For character guessing, put the files in dataset into [`character guessing/dataset`](character guessing/dataset).
+For character guessing, put the files in dataset into [character guessing/dataset](character guessing/dataset).
 
 ### Run
 
@@ -39,7 +39,7 @@ TBA
 
 ### Results with LLMs
 
-We also include the code to inference each dataset with ChatGPT. You will first need to add you OpenAI API key into [`inference_api.py`](character linking & coreference resolution/joint_model/inference_api.py).
+We also include the code to inference each dataset with ChatGPT. You will first need to add you OpenAI API key into [inference_api.py](character linking & coreference resolution/joint_model/inference_api.py).
 
 For character linking and coreference resolution, run
 ```
