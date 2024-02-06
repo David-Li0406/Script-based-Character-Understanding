@@ -13,11 +13,11 @@
 
 ## Dependency
 
-To run our multi-level contrastive learning framework in each individual task, please first install the require packages from the original repositories [here](https://github.com/HKUST-KnowComp/C2) and [here](https://github.com/YisiSang/TVSHOWGUESS).
+To run our multi-level contrastive learning framework in each individual task, please first install the required packages from the original repositories [here](https://github.com/HKUST-KnowComp/C2) and [here](https://github.com/YisiSang/TVSHOWGUESS).
 
 ## Data
 
-You can download the processed data [here](https://drive.google.com/drive/folders/1oKz3_suw9I0zeUbjR3tta3UCbaK9h9GD?usp=drive_link) directly.
+You can download the processed data [here](https://drive.google.com/drive/folders/1oKz3_suw9I0zeUbjR3tta3UCbaK9h9GD?usp=sharing) directly.
 
 For character linking and coreference resolution, put the files in original_data into ``character linking & coreference_resolution/data``, and put the files in data into ``character linking & coreference_resolution/joint_model/data``.
 
